@@ -154,3 +154,24 @@ main{
     font-weight: bold;
     font-size: 35px;
 }
+
+/* footer styles*/
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer input[type="textarea"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width:100%;
+    margin-bottom: 24px;
+    padding: 10px 20 px;
+    border:none;
+}
